@@ -1,0 +1,7 @@
+<Project>
+      <PropertyGroup>
+        <RootNamespace>AbcArbitrage.Homework</RootNamespace>
+        <WarningLevel>4</WarningLevel>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+</Project>

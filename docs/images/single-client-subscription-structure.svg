@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Client Container -->
+  <rect x="10" y="10" width="780" height="480" fill="#f0f0f0" stroke="#333" stroke-width="2" />
+  <text x="20" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Client: ClientId123</text>
+  
+  <!-- Dictionary Container -->
+  <rect x="20" y="60" width="760" height="410" fill="#e6f3ff" stroke="#333" stroke-width="2" />
+  <text x="30" y="85" font-family="Arial, sans-serif" font-size="14" fill="#333">Dictionary&lt;string, PatternNode&gt; MessageDict</text>
+  
+  <!-- MessageId 1 -->
+  <rect x="30" y="100" width="740" height="120" fill="#cce6ff" stroke="#333" stroke-width="1" />
+  <text x="40" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">MessageId: StockPrice</text>
+  
+  <!-- SubscriptionPatterns for MessageId 1 -->
+  <rect x="40" y="130" width="720" height="80" fill="#b3d9ff" stroke="#333" stroke-width="1" />
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333">SubscriptionPatterns:</text>
+  <text x="60" y="170" font-family="Arial, sans-serif" font-size="12" fill="#333">1. NASDAQ.42.TECH.*.MSFT</text>
+  <text x="60" y="190" font-family="Arial, sans-serif" font-size="12" fill="#333">2. NYSE.13.FINANCE.*.JPM</text>
+  
+  <!-- MessageId 2 -->
+  <rect x="30" y="230" width="740" height="120" fill="#cce6ff" stroke="#333" stroke-width="1" />
+  <text x="40" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">MessageId: MarketUpdate</text>
+  
+  <!-- SubscriptionPatterns for MessageId 2 -->
+  <rect x="40" y="260" width="720" height="80" fill="#b3d9ff" stroke="#333" stroke-width="1" />
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333">SubscriptionPatterns:</text>
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333">1. GLOBAL.*.TECH</text>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="12" fill="#333">2. US.NASDAQ.*</text>
+  
+  <!-- MessageId 3 -->
+  <rect x="30" y="360" width="740" height="100" fill="#cce6ff" stroke="#333" stroke-width="1" />
+  <text x="40" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">MessageId: CompanyNews</text>
+  
+  <!-- SubscriptionPatterns for MessageId 3 -->
+  <rect x="40" y="390" width="720" height="60" fill="#b3d9ff" stroke="#333" stroke-width="1" />
+  <text x="50" y="410" font-family="Arial, sans-serif" font-size="12" fill="#333">SubscriptionPatterns:</text>
+  <text x="60" y="430" font-family="Arial, sans-serif" font-size="12" fill="#333">1. *.BREAKING.TECH.*</text>
+</svg>
